@@ -1,0 +1,11 @@
+body {
+   height: 100%;
+}
+.wrapper {
+   min-height: 100%;
+}
+.container {
+}
+@import "base/variables";
+@import "blocks/menu";
+@import "base/media";
