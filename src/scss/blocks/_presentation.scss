@@ -1,0 +1,76 @@
+.presentation {
+   position: relative;
+   color: #fff;
+   background: linear-gradient(180deg, #871459 0%, #000080 29.17%);
+   height: 100vh;
+   &-info {
+      &__text {
+         position: absolute;
+         top: 200px;
+         left: 50%;
+         z-index: 1;
+         transform: translateX(-50%);
+         width: 700px;
+      }
+
+      &__img {
+         position: absolute;
+         bottom: 0;
+         left: 50%;
+         transform: translateX(-50%);
+         img {
+            width: 510px;
+            height: 446px;
+         }
+      }
+   }
+}
+.first-line,
+.second-line {
+   font-size: 48px;
+   text-align: center;
+   position: relative;
+   .island-moments {
+      font-family: "Island-Moments";
+      font-size: 96px;
+      margin-right: 15px;
+   }
+   .function-js {
+      position: absolute;
+      left: 10px;
+      bottom: 27px;
+      font-size: 24px;
+      color: #871459;
+   }
+   img {
+      display: block;
+      position: absolute;
+      bottom: 27px;
+   }
+}
+.opening {
+   &_html_tag {
+      left: 50px;
+   }
+
+   &_argument_brackets {
+      right: 110px;
+   }
+
+   &_curve_brackets {
+      right: 30px;
+   }
+}
+.closing {
+   &_html_tag {
+      right: 60px;
+   }
+
+   &_argument_brackets {
+      right: 77px;
+   }
+
+   &_curve_brackets {
+      right: 0;
+   }
+}
