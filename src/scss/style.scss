@@ -10,7 +10,40 @@ body {
    max-width: 1140px;
    margin: 0 auto;
 }
+.title-block {
+   text-align: center;
+}
+.title {
+   font-weight: 700;
+   font-size: 36px;
+   margin-bottom: 30px;
+}
+
+@import "base/mixins";
 @import "base/variables";
-@import "blocks/menu";
+
+.suptitle {
+   font-weight: 700;
+   font-size: 17px;
+   position: relative;
+   margin-bottom: 22px;
+}
+.divider {
+   width: 63px;
+   height: 3px;
+   border: 1px solid $color-red;
+   background-color: $color-red;
+   position: relative;
+   left: 50%;
+   transform: translateX(-50%);
+   margin-bottom: 60px;
+}
+
 @import "blocks/presentation";
+@import "blocks/header";
+@import "blocks/about";
+@import "blocks/skills";
+@import "blocks/portfolio";
+@import "blocks/contacts";
+@import "base/validation";
 @import "base/media";

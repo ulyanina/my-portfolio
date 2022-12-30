@@ -1,0 +1,23 @@
+form {
+   & .error {
+      border: 1px solid red;
+      position: relative;
+   }
+}
+label.error {
+   position: absolute;
+   top: -21px;
+   left: 0px;
+   color: red;
+   width: 303px;
+   border: none;
+   font-size: 14px;
+   border-radius: 0;
+   padding: 0;
+}
+#policy-error {
+   position: absolute;
+   top: -3px;
+   left: 12px;
+   width: 296px;
+}
