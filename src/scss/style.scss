@@ -31,17 +31,18 @@ body {
 .divider {
    width: 63px;
    height: 3px;
-   border: 1px solid $color-torquise;
-   background-color: $color-torquise;
+   border: 1px solid $color-red;
+   background-color: $color-red;
    position: relative;
    left: 50%;
    transform: translateX(-50%);
    margin-bottom: 60px;
 }
 
-@import "blocks/header";
+@import "blocks/sidepanel";
 @import "blocks/menu";
 @import "blocks/presentation";
+@import "blocks/pageup";
 @import "blocks/about";
 @import "blocks/skills";
 @import "blocks/portfolio";

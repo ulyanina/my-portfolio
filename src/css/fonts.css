@@ -1,12 +1,4 @@
 @font-face {
-   font-family: "Island-Moments";
-   src: url("../fonts/Island-Moments.eot");
-   src: url("../fonts/Island-Moments.eot?#iefix") format("embedded-opentype"),
-      url("../fonts/Island-Moments.woff") format("woff"), url("../fonts/Island-Moments.ttf") format("truetype");
-   font-weight: 400;
-   font-style: normal;
-}
-@font-face {
    font-family: "Philosopher";
    src: url("../fonts/Philosopher-Regular.ttf");
    src: url("../fonts/Philosopher-Regular.ttf") format("embedded-opentype"),
