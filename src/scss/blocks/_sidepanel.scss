@@ -26,5 +26,9 @@
    img {
       width: 20px;
       height: 20px;
+      &:hover {
+         transform: scale(2.05);
+         transition: all 0.5s;
+      }
    }
 }

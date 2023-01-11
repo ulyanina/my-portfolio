@@ -102,14 +102,23 @@ $("a[href='#up']").click(function () {
 });
 
 //buttons
+// (function ($) {
+	// $(function () {
+	// 	$('.presentation__buttons').on('click', 'button:not(.presentation__button-active)', function () {
+	// 		$(this)
+	// 			.addClass('catalog__tab_active').siblings().removeClass('catalog__tab_active');
+	// 	});
+	// });
+// });
+
 // const button = document.querySelectorAll('.presentation__button');
 
 // button.addEventListener('click', () => {
-//    button.classList.toggle('active');
+//    button.classList.add('presentation__button-active');
 // });
 
 // button.forEach(item => {
 // 	item.addEventListener('click', () => {
-// 		button.classList.toggle('active');
+// 		button.classList.toggle('presentation__button-active');
 // 	});
 // });
