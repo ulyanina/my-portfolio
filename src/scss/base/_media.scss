@@ -83,7 +83,7 @@
       }
 
       &__row {
-         margin-left: 0;
+         // margin-left: 0;
       }
 
       h1 {
@@ -91,7 +91,7 @@
       }
 
       h2 {
-         font-size: calc(29px + 24 * ((100vw - 320px) / (1140 - 320)));
+         font-size: calc(26px + 27 * ((100vw - 320px) / (1140 - 320)));
          line-height: calc(42px + 21 * ((100vw - 320px) / (1140 - 320)));
       }
 
@@ -127,19 +127,17 @@
          grid-row: 2/3;
          padding-right: 0;
          grid-template-columns: 1fr;
-         grid-template-rows: repeat(2, minmax(90px, auto));
-         // column-gap: 10px;
-         row-gap: 0;
+         // grid-template-rows: repeat(2, minmax(50px, auto));
+         // grid-auto-rows: minmax(50px, auto);
+         row-gap: 15px;
 
          &-item {
-            // padding-left: 10px;
             &-title {
                font-size: calc(14px + 2 * ((100vw - 320px) / (1140 - 320)));
             }
 
             &-text {
                font-size: calc(13px + 1 * ((100vw - 320px) / (1140 - 320)));
-               margin-bottom: 10px;
             }
          }
       }
@@ -270,8 +268,9 @@
          grid-column: 1/2;
          grid-row: 3/4;
          grid-template-columns: repeat(2, 1fr);
-         grid-template-rows: repeat(2, minmax(120px, auto));
-         gap: 20px;
+         grid-template-rows: minmax(120px, auto);
+         column-gap: 20px;
+         row-gap: 30px;
 
          &-item {
             &-text {
@@ -361,14 +360,18 @@
       &__link {
          font-size: calc(17px + 7 * ((100vw - 320px) / (540 - 320)));
       }
-
-      &__footer {
-         left: 70px;
-      }
    }
 
-   .presentation__img {
-      left: 20px;
+   .presentation {
+      &__row {
+         margin-left: 0;
+      }
+      &__button {
+         // background: $color-ice;
+      }
+      &__img {
+         left: 20px;
+      }
    }
 
    .about {
@@ -385,7 +388,7 @@
 
       &__skills {
          grid-template-columns: minmax(280px, auto);
-         grid-template-rows: repeat(3, minmax(90px, auto));
+         grid-template-rows: repeat(2, minmax(90px, auto));
       }
 
       .column1 {

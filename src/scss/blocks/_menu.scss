@@ -110,7 +110,9 @@
       display: flex;
       justify-content: space-between;
       position: absolute;
-      left: 128px;
+      // left: 128px;
+      left: 50%;
+      transform: translateX(-50%);
       bottom: 50px;
       img {
          width: 20px;

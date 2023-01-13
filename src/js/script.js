@@ -101,24 +101,28 @@ $("a[href='#up']").click(function () {
 	return false;
 });
 
-//buttons
-// (function ($) {
-	// $(function () {
-	// 	$('.presentation__buttons').on('click', 'button:not(.presentation__button-active)', function () {
-	// 		$(this)
-	// 			.addClass('catalog__tab_active').siblings().removeClass('catalog__tab_active');
-	// 	});
-	// });
-// });
+//using GSAP, to add event listener
+// function aboutAnimation() {
+// 	gsap.from('.about__img', {opacity: 0, duration: 2, delay: 1, y: 100});
+// 	gsap.from('.about__horizontal', {opacity: 0, duration: 2, delay: 1.5, y: 100});
+// 	gsap.from('.column1', {opacity: 0, duration: 2, delay: 2, y: 100});
+// 	gsap.from('.column2', {opacity: 0, duration: 2, delay: 2.5, y: 100});
+// }		
+// aboutAnimation();
 
-// const button = document.querySelectorAll('.presentation__button');
+// function skillsAnimation() {
+// 	gsap.from('.html', {opacity: 0, duration: 1, delay: .5, y: 50});
+// 	gsap.from('.css', {opacity: 0, duration: 1, delay: .8, y: 50});
+// 	gsap.from('.js', {opacity: 0, duration: 1, delay: 1.1, y: 50});
+// 	gsap.from('.sass', {opacity: 0, duration: 1, delay: 1.4, y: 50});
+// 	gsap.from('.bem', {opacity: 0, duration: 1, delay: 1.7, y: 50});
+// 	gsap.from('.gsap', {opacity: 0, duration: 1, delay: 2, y: 50});
+// 	gsap.from('.jquery', {opacity: 0, duration: 1, delay: 2.3, y: 50});
+// 	gsap.from('.bootstrap', {opacity: 0, duration: 1, delay: 2.6, y: 50});
+// 	gsap.from('.gulp', {opacity: 0, duration: 1, delay: 2.9, y: 50});
+// 	gsap.from('.git', {opacity: 0, duration: 1, delay: 3.2, y: 50});
+// 	gsap.to('.git', {duration: .5, delay: 4.2,rotate: 0});
+// }
+// skillsAnimation();
 
-// button.addEventListener('click', () => {
-//    button.classList.add('presentation__button-active');
-// });
-
-// button.forEach(item => {
-// 	item.addEventListener('click', () => {
-// 		button.classList.toggle('presentation__button-active');
-// 	});
-// });
+new WOW().init();

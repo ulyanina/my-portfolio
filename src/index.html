@@ -29,20 +29,22 @@
    <title>Ulyanina</title>
    <link rel="stylesheet" href="css/null.css">
    <link rel="stylesheet" href="css/fonts.css">
+   <link rel="stylesheet" href="css/animate.css">
    <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
    <div class="wrapper">
       <aside class="sidepanel">
-         <span>Социальные сети</span>
-         <div class="sidepanel__divider"></div>
-         <a href="#" class="sidepanel__link"><img src="icons/sidepanel/Github.svg" alt="github"></a>
-         <a href="#" class="sidepanel__link"><img src="icons/sidepanel/vk.svg" alt="vk"></a>
-         <a href="#" class="sidepanel__link"><img src="icons/sidepanel/Telegram.svg" alt="telegram"></a>
+         <span class="animate__animated animate__backInRight wow" data-wow-delay=".2s">Социальные сети</span>
+         <div class="sidepanel__divider animate__animated animate__backInRight wow" data-wow-delay=".3s"></div>
+         <a href="#" class="sidepanel__link animate__animated animate__backInRight wow" data-wow-delay=".4s"><img src="icons/sidepanel/Github.svg" alt="github"></a>
+         <a href="#" class="sidepanel__link animate__animated animate__backInRight wow" data-wow-delay=".5s"><img src="icons/sidepanel/vk.svg" alt="vk"></a>
+         <a href="#" class="sidepanel__link animate__animated animate__backInRight wow" data-wow-delay=".6s"><img src="icons/sidepanel/Telegram.svg" alt="telegram"></a>
       </aside>
       <section id="up" class="presentation">
-         <div class="humburger">
+         <div class="humburger animate__animated animate__zoomInDown wow"> 
+            <!-- data-wow-delay="3s" -->
             <span></span>
             <span class="long"></span>
             <span></span>
@@ -52,7 +54,7 @@
                <div class="menu__close">&times;</div>
                <nav>
                   <ul class="menu__list">
-                     <li class="menu__link"><a href="#about">ПРО МЕНЯ</a></li>
+                     <li class="menu__link animate__animated animate__lightSpeedInLeft wow"><a href="#about">ПРО МЕНЯ</a></li>
                      <li class="menu__link"><a href="#skills">МОИ НАВЫКИ</a></li>
                      <li class="menu__link"><a href="#portfolio">МОИ РАБОТЫ</a></li>
                      <li class="menu__link"><a href="#contacts">КОНТАКТЫ</a></li>
@@ -74,9 +76,9 @@
                   <h2>Я html</span>-верстальщик</h2>
                   <h2 class="h2">и frontend-разработчик</h2>
                   <div class="presentation__buttons">
-                     <button class="presentation__button presentation__button-active"><a
+                     <button class="presentation__button presentation__button-active animate__animated animate__hinge wow" data-wow-delay="2.3s"><a
                            class="presentation__buttons-left" href="#portfolio">Портфолио</a></button>
-                     <button class="presentation__button "><a class=" presentation__buttons-right" href="#about">Про
+                     <button class="presentation__button"><a class=" presentation__buttons-right" href="#about">Про
                            меня</a></button>
                   </div>
                </div>
@@ -89,10 +91,10 @@
       <section id="about" class="about">
          <div class="container">
             <div class="about__row">
-               <div class="about__img">
+               <div class="about__img animate__animated animate__fadeInUp wow">
                   <img src="img/about/about_section.jpg" alt="me">
                </div>
-               <div class="about__horizontal horizontal">
+               <div class="about__horizontal horizontal animate__animated animate__fadeInUp wow" data-wow-delay=".3s">
                   <h2 class="horizontal__suptitle suptitle">Про меня</h2>
                   <div class="horizontal__title title">Меня зовут Ульяна</div>
                   <div class="horizontal__divider divider"></div>
@@ -104,7 +106,7 @@
                      шахматы. </div>
                </div>
                <div class="about__skills">
-                  <div class="about__skills-item column1">
+                  <div class="about__skills-item column1 animate__animated animate__fadeInUp wow" data-wow-delay=".4s">
                      <div class="about__skills-item-icon"><img src="icons/about/web_development.svg"
                            alt="web_development">
                      </div>
@@ -117,7 +119,7 @@
                            устройствах с разным расширением экрана.</div>
                      </div>
                   </div>
-                  <div class="about__skills-item column2">
+                  <div class="about__skills-item column2 animate__animated animate__fadeInUp wow" data-wow-delay=".6s">
                      <div class="about__skills-item-icon"><img src="icons/about/Mobile_dev.svg"
                            alt="mobile_development">
                      </div>
@@ -135,7 +137,7 @@
                         <div class="about__skills-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                            sed
                            do
-                           eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                           eiusmod tempor incididunt ut </div>
                      </div>
                   </div> -->
                </div>
@@ -150,7 +152,7 @@
                <div class="skills__divider divider"></div>
             </div>
             <div class="skills__row">
-               <div class="skills__item html">
+               <div class="skills__item html animate__animated animate__fadeInUp wow" data-wow-delay=".2s">
                   <div class="skills__item-icon"><img src="icons/skills/html5.svg" alt="html5"></div>
                   <div class="skills__item-title">HTML5</div>
                   <div class="skills__item-text">Именно он создает каркас вашего сайта или приложения, а пятая версия
@@ -158,7 +160,7 @@
                      мне
                      создавать более SEO-оптимизированную структуру вашего продукта</div>
                </div>
-               <div class="skills__item css">
+               <div class="skills__item css animate__animated animate__fadeInUp wow" data-wow-delay=".3s">
                   <div class="skills__item-icon"><img src="icons/skills/css3.svg" alt="css3"></div>
                   <div class="skills__item-title">CSS3</div>
                   <div class="skills__item-text">Этот язык стилей позволяет мне создавать абсолютно любой внешний вид
@@ -166,51 +168,51 @@
                      сайта
                      или приложения. Все ограничивается только вашей фантазией!</div>
                </div>
-               <div class="skills__item js">
+               <div class="skills__item js animate__animated animate__fadeInUp wow" data-wow-delay=".4s">
                   <div class="skills__item-icon"><img src="icons/skills/JS.svg" alt="javascript"></div>
                   <div class="skills__item-title">Java Script</div>
                   <div class="skills__item-text">Этот язык программирования позволяет оживить все что угодно: слайдеры,
                      окна, подсказки, вкладки, получение данных от сервера и многое другое</div>
                </div>
-               <div class="skills__item sass">
+               <div class="skills__item sass animate__animated animate__fadeInUp wow" data-wow-delay=".5s">
                   <div class="skills__item-icon"><img src="icons/skills/sass.svg" alt="sass"></div>
                   <div class="skills__item-title">Sass</div>
                   <div class="skills__item-text">Это метаязык, часто называемый препроцессором, созданный для того,
                      чтобы упростить и ускорить написание CSS-кода.</div>
                </div>
-               <div class="skills__item bem">
+               <div class="skills__item  bem animate__animated animate__fadeInUp wow" data-wow-delay=".6s">
                   <div class="skills__item-icon"><img src="icons/skills/bem.svg" alt="bem"></div>
                   <div class="skills__item-title">Бэм</div>
                   <div class="skills__item-text">Это методология web-разработки, позволяющая разделять рабочее полотно
                      на независимые блоки, и строить удобно, а главное понятно, всю архитектуру интерфейса.</div>
                </div>
-               <div class="skills__item gsap">
+               <div class="skills__item gsap animate__animated animate__fadeInUp wow" data-wow-delay=".7s">
                   <div class="skills__item-icon"><img src="icons/skills/gsap-greensock.svg" alt="gsap"></div>
                   <div class="skills__item-title">GSAP</div>
                   <div class="skills__item-text">Это JS библиотека для анимации свойств любых
                      объектов, очень удобна в использовании и легка в весе, что непосредственно влияет на скорость
                      загрузки сайтов.</div>
                </div>
-               <div class="skills__item jquery">
+               <div class="skills__item jquery animate__animated animate__fadeInUp wow" data-wow-delay=".8s">
                   <div class="skills__item-icon"><img src="icons/skills/Jquery.svg" alt="jquery"></div>
                   <div class="skills__item-title">Jquery</div>
                   <div class="skills__item-text">Библиотека Jquery позволит ускорить разработку. Без необходимости
                      интегрировать в проект мы её не будем, но навык работы с ней присутствует</div>
                </div>
-               <div class="skills__item bootstrap">
+               <div class="skills__item bootstrap animate__animated animate__fadeInUp wow" data-wow-delay=".9s">
                   <div class="skills__item-icon"><img src="icons/skills/bootstrap.svg" alt="bootstrap"></div>
                   <div class="skills__item-title">Bootstrap</div>
                   <div class="skills__item-text">Это фреймворк, используемый для быстрой вёрстки. Включает в себя
                      шаблоны для создания веб-форм, кнопок, блоков и других компонентов веб-интерфейса.</div>
                </div>
-               <div class="skills__item gulp">
+               <div class="skills__item gulp animate__animated animate__fadeInUp wow" data-wow-delay="1s">
                   <div class="skills__item-icon"><img src="icons/skills/gulp.svg" alt="gulp"></div>
                   <div class="skills__item-title">Gulp</div>
                   <div class="skills__item-text">Это сборщик для автоматического выполнения рутинных задач, таких как
                      сборку необходимых файлов, компиляцию LESS/SASS файлов в CSS и других.
                   </div>
                </div>
-               <div class="skills__item git">
+               <div class="skills__item git animate__animated animate__fadeInUp wow" data-wow-delay="1.1s">
                   <div class="skills__item-icon"><img src="icons/skills/git.svg" alt="git"></div>
                   <div class="skills__item-title">Git</div>
                   <div class="skills__item-text">Это система контроля версий для отслеживания и ведения истории
@@ -235,34 +237,34 @@
             </div>
             <div class="portfolio__block">
 
-               <a href="https://ulyanina.github.io/uber/" class="portfolio__block-item uber">
+               <a href="https://ulyanina.github.io/uber/" class="portfolio__block-item uber animate__animated animate__fadeInLeft wow">
                   <img src="img/portfolio/uber-big.jpg" alt="uber">
                </a>
 
-               <a href="https://ulyanina.github.io/runsmart/src" class="portfolio__block-item pulse">
+               <a href="https://ulyanina.github.io/runsmart/src" class="portfolio__block-item pulse animate__animated animate__fadeInTopLeft wow">
                   <img src="img/portfolio/pulse-big.jpg" alt="pulse">
                </a>
 
-               <a href="https://ulyanina.github.io/portfolio/src" class="portfolio__block-item yourPortfolio">
+               <a href="https://ulyanina.github.io/portfolio/src" class="portfolio__block-item yourPortfolio animate__animated animate__fadeInTopRight wow">
                   <img src="img/portfolio/yourPortfolio-big.jpg" alt="yourPortfolio">
                </a>
 
-               <a href="#" class="portfolio__block-item plans">
+               <a href="#" class="portfolio__block-item plans animate__animated animate__fadeInRight wow">
                   <img src="img/portfolio/plans-big.jpg" alt="plans">
                </a>
 
-               <a href="#" class="portfolio__block-item bread">
+               <a href="#" class="portfolio__block-item bread animate__animated animate__fadeInBottomLeft wow">
                   <img src="img/portfolio/bread-big.jpg" alt="bread">
                </a>
 
-               <a href="#" class="portfolio__block-item mac">
+               <a href="#" class="portfolio__block-item mac animate__animated animate__fadeInUp wow">
                   <img src="img/portfolio/mac-big.jpg" alt="mac">
                </a>
 
             </div>
          </div>
       </section>
-      <section id="contacts" class="contacts">
+      <section id="contacts" class="contacts animate__animated animate__fadeInTopRight wow">
          <div class="container">
             <div class="contacts__row">
                <div class="contacts__foto">
@@ -319,6 +321,8 @@
    </a>
    <script src="js/jquery-3.1.1.js"></script>
    <script src="js/jquery.validate.min.js"></script>
+   <!-- <script src="js/gsap/minified/gsap.min.js"></script> -->
+   <script src="js/wow.min.js"></script>
    <script src="js/script.js"></script>
 </body>
 
