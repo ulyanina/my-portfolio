@@ -44,6 +44,9 @@
    //    margin-right: 10px;
    // }
    &__button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       background: transparent;
       transition: all 0.1s;
       // box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.7), -6px -6px 12px #ffffff;
@@ -70,7 +73,6 @@
       cursor: pointer;
    }
    &__buttons-right {
-      margin-top: 41px;
    }
    &__img {
       position: absolute;

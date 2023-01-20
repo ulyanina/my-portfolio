@@ -38,13 +38,15 @@
       <aside class="sidepanel">
          <span class="animate__animated animate__backInRight wow" data-wow-delay=".2s">Социальные сети</span>
          <div class="sidepanel__divider animate__animated animate__backInRight wow" data-wow-delay=".3s"></div>
-         <a href="#" class="sidepanel__link animate__animated animate__backInRight wow" data-wow-delay=".4s"><img src="icons/sidepanel/Github.svg" alt="github"></a>
-         <a href="#" class="sidepanel__link animate__animated animate__backInRight wow" data-wow-delay=".5s"><img src="icons/sidepanel/vk.svg" alt="vk"></a>
-         <a href="#" class="sidepanel__link animate__animated animate__backInRight wow" data-wow-delay=".6s"><img src="icons/sidepanel/Telegram.svg" alt="telegram"></a>
+         <a href="#" class="sidepanel__link animate__animated animate__backInRight wow" data-wow-delay=".4s"><img
+               src="icons/sidepanel/Github.svg" alt="github"></a>
+         <a href="#" class="sidepanel__link animate__animated animate__backInRight wow" data-wow-delay=".5s"><img
+               src="icons/sidepanel/vk.svg" alt="vk"></a>
+         <a href="#" class="sidepanel__link animate__animated animate__backInRight wow" data-wow-delay=".6s"><img
+               src="icons/sidepanel/Telegram.svg" alt="telegram"></a>
       </aside>
       <section id="up" class="presentation">
-         <div class="humburger animate__animated animate__zoomInDown wow"> 
-            <!-- data-wow-delay="3s" -->
+         <div class="humburger animate__animated animate__zoomInDown wow" data-wow-delay="1s">
             <span></span>
             <span class="long"></span>
             <span></span>
@@ -54,10 +56,14 @@
                <div class="menu__close">&times;</div>
                <nav>
                   <ul class="menu__list">
-                     <li class="menu__link animate__animated animate__lightSpeedInLeft wow"><a href="#about">ПРО МЕНЯ</a></li>
-                     <li class="menu__link"><a href="#skills">МОИ НАВЫКИ</a></li>
-                     <li class="menu__link"><a href="#portfolio">МОИ РАБОТЫ</a></li>
-                     <li class="menu__link"><a href="#contacts">КОНТАКТЫ</a></li>
+                     <li class="menu__link animate__animated animate__lightSpeedInLeft wow" data-wow-delay="2.8s"><a
+                           href="#about">ПРО МЕНЯ</a></li>
+                     <li class="menu__link animate__animated animate__lightSpeedInLeft wow" data-wow-delay="3s"><a
+                           href="#skills">МОИ НАВЫКИ</a></li>
+                     <li class="menu__link animate__animated animate__lightSpeedInLeft wow" data-wow-delay="3.2s"><a
+                           href="#portfolio">МОИ РАБОТЫ</a></li>
+                     <li class="menu__link animate__animated animate__lightSpeedInLeft wow" data-wow-delay="3.4s"><a
+                           href="#contacts">КОНТАКТЫ</a></li>
                   </ul>
                </nav>
                <div class="menu__social">
@@ -73,17 +79,18 @@
                <div class="presentation__text">
                   <h1><span>
                         Ме</span>ня зовут Ульяна</h1>
-                  <h2>Я html</span>-верстальщик</h2>
+                  <h2>Я html-верстальщик</h2>
                   <h2 class="h2">и frontend-разработчик</h2>
                   <div class="presentation__buttons">
-                     <button class="presentation__button presentation__button-active animate__animated animate__hinge wow" data-wow-delay="2.3s"><a
-                           class="presentation__buttons-left" href="#portfolio">Портфолио</a></button>
-                     <button class="presentation__button"><a class=" presentation__buttons-right" href="#about">Про
-                           меня</a></button>
+                     <a href="#portfolio"
+                        class="presentation__button presentation__buttons-left animate__animated animate__hinge wow"
+                        data-wow-delay="2.3s">Портфолио</a>
+                     <a href="#about" class="presentation__button presentation__buttons-right">Про
+                        меня</a>
                   </div>
                </div>
                <div class="presentation__img">
-                  <img src="img/presentation/presentation-photo.png" alt="photo">
+                  <img src="img/presentation/presentation-photo.webp" alt="photo">
                </div>
             </div>
          </div>
@@ -92,7 +99,11 @@
          <div class="container">
             <div class="about__row">
                <div class="about__img animate__animated animate__fadeInUp wow">
-                  <img src="img/about/about_section.jpg" alt="me">
+                  <picture>
+                     <source srcset="img/about/about_section.webp" type="image/webp" media="(min-width: 769px)">
+                     <source srcset="img/about/about-section-medium.webp" type="image/webp" media="(max-width: 768px)">
+                     <img src="img/about/about_section.webp" alt="me">
+                  </picture>
                </div>
                <div class="about__horizontal horizontal animate__animated animate__fadeInUp wow" data-wow-delay=".3s">
                   <h2 class="horizontal__suptitle suptitle">Про меня</h2>
@@ -102,7 +113,7 @@
                      С тех пор занимаюсь разработкой и версткой сайтов. Занимаюсь этим относительно недавно и посему не
                      могу похвастаться большим опытом, но безумно люблю свою работу и совершенствуюсь каждый день.
                      Гарантирую честность и добросовестность, а остальное - это дело наживное.<br>Если я не за
-                     компьютером, то скорее всего смотрю фильмы, занимаюсь йогой, готовлю или коротаю время играя в
+                     компьютером, то скорее всего смотрю фильмы, практикую йогу, готовлю или коротаю время играя в
                      шахматы. </div>
                </div>
                <div class="about__skills">
@@ -236,29 +247,56 @@
                <div class="portfolio__divider divider"></div>
             </div>
             <div class="portfolio__block">
-
-               <a href="https://ulyanina.github.io/uber/" class="portfolio__block-item uber animate__animated animate__fadeInLeft wow">
-                  <img src="img/portfolio/uber-big.jpg" alt="uber">
+             
+               <a href="https://ulyanina.github.io/uber/"
+                  class="portfolio__block-item uber animate__animated animate__fadeInLeft wow">
+                  <picture>
+                     <source srcset="img/portfolio/uber-big.webp" type="image/webp" media="(min-width: 769px)">
+                     <source srcset="img/portfolio/uber-medium.webp" type="image/webp" media="(max-width: 768px)">
+                     <img src="img/portfolio/uber-big.webp" alt="uber">
+                  </picture>
                </a>
 
-               <a href="https://ulyanina.github.io/runsmart/src" class="portfolio__block-item pulse animate__animated animate__fadeInTopLeft wow">
-                  <img src="img/portfolio/pulse-big.jpg" alt="pulse">
+               <a href="https://ulyanina.github.io/runsmart/src"
+                  class="portfolio__block-item pulse animate__animated animate__fadeInTopLeft wow">
+                  <picture>
+                     <source srcset="img/portfolio/pulse-big.webp" type="image/webp" media="(min-width: 769px)">
+                     <source srcset="img/portfolio/pulse-medium.webp" type="image/webp" media="(max-width: 768px)">
+                     <img src="img/portfolio/pulse-big.webp" alt="pulse">
+                  </picture>
                </a>
 
-               <a href="https://ulyanina.github.io/portfolio/src" class="portfolio__block-item yourPortfolio animate__animated animate__fadeInTopRight wow">
-                  <img src="img/portfolio/yourPortfolio-big.jpg" alt="yourPortfolio">
+               <a href="https://ulyanina.github.io/portfolio/src"
+                  class="portfolio__block-item yourPortfolio animate__animated animate__fadeInTopRight wow">
+                  <picture>
+                     <source srcset="img/portfolio/yourPortfolio-big.webp" type="image/webp" media="(min-width: 769px)">
+                     <source srcset="img/portfolio/yourPortfolio-medium.webp" type="image/webp" media="(max-width: 768px)">
+                     <img src="img/portfolio/yourPortfolio-big.webp" alt="yourPortfolio">
+                  </picture>
                </a>
 
                <a href="#" class="portfolio__block-item plans animate__animated animate__fadeInRight wow">
-                  <img src="img/portfolio/plans-big.jpg" alt="plans">
+                  <picture>
+                     <source srcset="img/portfolio/plans-big.webp" type="image/webp" media="(min-width: 769px)">
+                     <source srcset="img/portfolio/plans-medium.webp" type="image/webp" media="(max-width: 768px)">
+                     <img src="img/portfolio/plans-big.webp" alt="plans">
+                  </picture>
                </a>
 
                <a href="#" class="portfolio__block-item bread animate__animated animate__fadeInBottomLeft wow">
-                  <img src="img/portfolio/bread-big.jpg" alt="bread">
+                  <picture>
+                     <source srcset="img/portfolio/bread-big.webp" type="image/webp" media="(min-width: 769px)">
+                     <source srcset="img/portfolio/bread-medium.webp" type="image/webp" media="(max-width: 768px)">
+                     <img src="img/portfolio/bread-big.webp" alt="bread">
+                  </picture>
                </a>
 
                <a href="#" class="portfolio__block-item mac animate__animated animate__fadeInUp wow">
-                  <img src="img/portfolio/mac-big.jpg" alt="mac">
+                  <picture>
+                     <source srcset="img/portfolio/mac-big.webp" type="image/webp" media="(min-width: 769px)">
+                     <source srcset="img/portfolio/mac-medium.webp" type="image/webp" media="(max-width: 768px)">
+                     <img src="img/portfolio/mac-big.webp" alt="mac">
+                  </picture>
                </a>
 
             </div>
@@ -268,7 +306,7 @@
          <div class="container">
             <div class="contacts__row">
                <div class="contacts__foto">
-                  <img src="img/contacts/contacts_img.jpg" alt="my-photo">
+                  <img src="img/contacts/contacts-img.webp" alt="my-photo">
                </div>
                <div class="contacts__column">
                   <h1 class="contacts__suptitle suptitle">Контакты</h1>
@@ -299,7 +337,7 @@
 
                      <div class="contacts__textarea">
                         <label for="textarea">Ваше сообщение</label>
-                        <textarea id="textarea" name="message" type="text"></textarea>
+                        <textarea id="textarea" name="message"></textarea>
                      </div>
 
                      <div class="contacts__actions">
