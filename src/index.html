@@ -27,9 +27,6 @@
    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
    <meta name="theme-color" content="#ffffff"> -->
    <title>Ulyanina</title>
-   <link rel="stylesheet" href="css/null.css">
-   <link rel="stylesheet" href="css/fonts.css">
-   <link rel="stylesheet" href="css/animate.css">
    <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -247,7 +244,7 @@
                <div class="portfolio__divider divider"></div>
             </div>
             <div class="portfolio__block">
-             
+
                <a href="https://ulyanina.github.io/uber/"
                   class="portfolio__block-item uber animate__animated animate__fadeInLeft wow">
                   <picture>
@@ -270,7 +267,8 @@
                   class="portfolio__block-item yourPortfolio animate__animated animate__fadeInTopRight wow">
                   <picture>
                      <source srcset="img/portfolio/yourPortfolio-big.webp" type="image/webp" media="(min-width: 769px)">
-                     <source srcset="img/portfolio/yourPortfolio-medium.webp" type="image/webp" media="(max-width: 768px)">
+                     <source srcset="img/portfolio/yourPortfolio-medium.webp" type="image/webp"
+                        media="(max-width: 768px)">
                      <img src="img/portfolio/yourPortfolio-big.webp" alt="yourPortfolio">
                   </picture>
                </a>
@@ -302,18 +300,21 @@
             </div>
          </div>
       </section>
-      <section id="contacts" class="contacts animate__animated animate__fadeInTopRight wow">
+      <section id="contacts" class="contacts">
          <div class="container">
             <div class="contacts__row">
-               <div class="contacts__foto">
+               <div class="contacts__foto animate__animated animate__fadeInTopRight wow">
                   <img src="img/contacts/contacts-img.webp" alt="my-photo">
                </div>
                <div class="contacts__column">
-                  <h1 class="contacts__suptitle suptitle">Контакты</h1>
-                  <div class="contacts__title title">Свяжитесь со мной</div>
+                  <h1 class="contacts__suptitle suptitle animate__animated animate__fadeInTopRight wow"
+                     data-wow-delay=".3s">Контакты</h1>
+                  <div class="contacts__title title animate__animated animate__fadeInTopRight wow" data-wow-delay=".5s">
+                     Свяжитесь со мной</div>
                   <div class="contacts__divider divider"></div>
-                  <div class="contacts__phrase">Любым удобным для вас способом:</div>
-                  <div class="contacts__social-row">
+                  <div class="contacts__phrase animate__animated animate__fadeInTopRight wow" data-wow-delay=".7s">Любым
+                     удобным для вас способом:</div>
+                  <div class="contacts__social-row animate__animated animate__fadeInTopRight wow" data-wow-delay=".7s">
                      <a href="#" class="contacts__social-item">
                         <img src="icons/contacts/github.svg" alt="github"></a>
                      <a href="#" class="contacts__social-item">
@@ -321,10 +322,12 @@
                      <a href="#" class="contacts__social-item">
                         <img src="icons/contacts/Telegram.svg" alt="telegram"></a>
                   </div>
-                  <div class="contacts__phrase contacts__phrase-form">Или оставьте ваши данные и я сама вам напишу:
+                  <div class="contacts__phrase contacts__phrase-form animate__animated animate__fadeInTopRight wow"
+                     data-wow-delay=".9s">Или оставьте ваши данные и я сама вам напишу:
                   </div>
 
-                  <form action="#" id="contacts__forms-row" class="contacts__forms-row">
+                  <form action="#" id="contacts__forms-row"
+                     class="contacts__forms-row animate__animated animate__fadeInTopRight wow" data-wow-delay=".9s">
                      <div class="contacts__input-name">
                         <label for="name">Ваше имя</label>
                         <input id="name" name="name" type="text">
@@ -340,7 +343,7 @@
                         <textarea id="textarea" name="message"></textarea>
                      </div>
 
-                     <div class="contacts__actions">
+                     <div class="contacts__actions animate__animated animate__fadeInTopRight wow" data-wow-delay="1.1s">
                         <button class="contacts__send-button">Отправить сообщение</button>
                         <div class="contacts__policy">
                            <input id="policy" name="policy" type="checkbox">
