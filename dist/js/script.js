@@ -126,3 +126,9 @@ $("a[href='#up']").click(function () {
 // skillsAnimation();
 
 new WOW().init();
+
+const policyAlarm = document.querySelector('.policy');
+
+policyAlarm.addEventListener('click', () => {
+	alert('На сегодняшний день данные не собираются!');
+});
